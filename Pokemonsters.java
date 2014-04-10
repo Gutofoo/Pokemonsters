@@ -67,7 +67,11 @@ public class Pokemonsters {
 		System.out.println("-----");
 		System.out.println("Health: " + player.getMonster().getHealth());
 		System.out.println();
-		//TODO
+		System.out.println(enemy.getName());
+		System.out.println("-----");
+		System.out.println("Health: " + player.getMonster().getHealth());
+		System.out.println("\n");
+		System.out.println(player.getMonster().getMoveList());
 	}
 
 	public static void healplayer() {
